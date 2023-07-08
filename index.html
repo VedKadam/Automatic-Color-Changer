@@ -1,0 +1,28 @@
+<html>
+<head>
+
+<style>
+	*{font-size: 30px;}
+	body{ background-color: azure; }
+</style>
+
+</head>
+<body>
+<center>
+
+	<h1> Holi Hain </h1>
+	<script>
+		function colorme(){
+			let colors = ["red", "green", "blue", "brown", "pink","grey", "yellow" ];
+			let r = parseInt(Math.random() * colors.length);
+			document.body.style.background = colors[r];
+
+
+		}
+		colorme();
+		setInterval(colorme, 5000);
+	</script>
+
+</center>
+</body>
+</html>
